@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.item-list {
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.item > h4 {
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+img:hover {
+  scale: 1.1;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-item-form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    width: 90%;
+    max-width: 800px;
+}
+
+.field {
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #333;
+    color: white;
+    /* padding: 0.5em 1em; */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 0.8rem;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #575757;
+}
+
+@media only screen and (max-width: 768px){
+  .item-list {
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .item-list {
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr ;
+    padding: 5px;
+    gap: 10px;
+  }
+}
