@@ -17,6 +17,7 @@ The objective of this exercise is to develop a CRUD (Create, Read, Update, Delet
 - [Base Code Rick and Morty - Get](https://github.com/Stevendev95/rick-morty-ts)
 - [Base Code POO - TS](https://github.com/Stevendev95/typescript-tutorial)
 - [JSON SERVER](https://www.npmjs.com/package/json-server)
+- [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Window replace location JS](https://developer.mozilla.org/en-US/docs/Web/API/Location/replace)
 - [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
